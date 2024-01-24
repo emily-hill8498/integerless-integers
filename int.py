@@ -37,6 +37,7 @@ class int:
                   val.append(str(int(val.pop()).add(int(sum.pop()))))
               except IndexError:
                   val.append(sum.pop())
-              print(fsum)
+        self.value =  fsum
+        return fsum
 
-int('9').add(int('9'))
+print(int('19').add(int('19')))
